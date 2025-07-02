@@ -1,0 +1,46 @@
+/* Sidebar.css */
+
+/* Basic Sidebar Styling */
+.sidebar {
+    background-color: #262b40 !important;
+    color: white;
+    min-height: 100vh;
+    padding: 20px;
+
+    width: 260px; /* Fixed width for sidebar */
+    /* min-width: 260px; */
+    position: relative;
+    /* height: 100vh;  */
+  }
+  
+  /* Styling for Sidebar Links */
+  .sidebar .nav-link {
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background 0.2s;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: #343a40 !important;
+    text-decoration: none;
+  }
+  .sidebar .nav-link.active {
+    /* background-color: #61dafb; */
+    /* background-color: #eaedf2; */
+    background-color: #3d8fa6;
+    font-weight: bold;
+    color: #eaedf2
+  }
+  
+  @media (min-width: 768px) {
+    .sidebar {
+        width: 100%;
+        max-width: 260px;
+    }
+}
