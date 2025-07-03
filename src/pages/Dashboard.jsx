@@ -38,7 +38,7 @@ const Dashboard = () => {
             <option>React</option>
             <option>Java</option>
             <option>HTMLs</option>
-            <option>Pythons</option>
+            <option>Python</option>
           </Form.Select>
 
         </Col>
